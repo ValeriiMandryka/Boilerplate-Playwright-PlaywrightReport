@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate-playwrite-playwrightreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runAlltests-Headless": "npx playwright test",
+    "runAlltests-Headed": "npx playwright test --headed",
+    "runTests:Headless-on-Chromium": "npx playwright test  --project=chromium",
+    "runTests:Headless-on-Firefox": "npx playwright test  --project=firefox",
+    "runTests:Headless-on-Safari": "npx playwright test  --project=webkit",
+    "runTests:Headless-on-mobileChrome-Pixel5": "npx playwright test  --project=MobileChrome",
+    "runTests:Headless-on-mobileSafari-Iphone12": "npx playwright test  --project=MobileSafari",
+    "runTests:Headed-on-Chromium": "npx playwright test  --project=chromium --headed",
+    "runTests:Headed-on-Firefox": "npx playwright test  --project=firefox --headed",
+    "runTests:Headed-on-Safari": "npx playwright test  --project=webkit --headed",
+    "runTests:Headed-on-mobileChrome-Pixel5": "npx playwright test  --project=MobileChrome",
+    "runTests:Headed-on-mobileSafari-Iphone12": "npx playwright test  --project=MobileSafari",
+    "open:PlaywriteReport": "npx playwright show-report"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
