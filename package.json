@@ -16,7 +16,8 @@
     "Tests:Headed-on-Safari": "npx playwright test  --project=webkit --headed",
     "Tests:Headed-on-mobileChrome-Pixel5": "npx playwright test  --project=MobileChrome",
     "Tests:Headed-on-mobileSafari-Iphone12": "npx playwright test  --project=MobileSafari",
-    "open:PlaywriteReport": "npx playwright show-report"
+    "open:PlaywriteReport": "npx playwright show-report",
+    "open:CodeGenerator": "npx playwright codegen playwright.dev"
     
   },
   "keywords": [],
